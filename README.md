@@ -23,13 +23,15 @@ The following is the complete command:
 ./run -s [support_threshold] -i [input_file] -n [thread_number] -t [task_parallelism_threshold] -T [PDB_parallelism_threshold]
 
 ### Contact
-Da Yan: http://www.cs.uab.edu/yanda
-
-UAB Data Lab (or YanLab@UAB): http://vorlon.cs.uab.edu/bigdata
+Da Yan: https://yanlab19870714.github.io/yanda
 
 Email: yanda@uab.edu
 
 ### Contributors
-Wenwen Qu
+Wenwen Qu (major co-contributer)
 
-Da Yan
+Da Yan (major co-contributer)
+
+Guimu Guo
+
+Xiaoling Wang
