@@ -20,10 +20,11 @@
 //## * Da Yan
 //########################################################################
 
-#include "app/sleuth/SleuthWorker.h"
+#include "app/gaston/GastonWorker.h"
 
 #include "system/timetrack.h"
 char infile[300];
+extern TimeTracker tt1,tt2,tt3,tt4,tt5;
 
 void parse_args(int argc, char **argv) {
 		extern char *optarg;
@@ -71,12 +72,15 @@ int main(int argc, char **argv){
 	parse_args(argc, argv);
 	TimeTracker tt;
 	
-    SleuthWorker worker(infile);
+    GastonWorker worker(infile);
 
 	worker.read(worker.file_name);
 	tt.start();
 	worker.run();
 	cout << tt.stop() << endl;
+	cout << "tt1: " << tt1.total_time << endl;
+	
+	cout << "tt2: "<< tt2.total_time << endl;
 	return 0;
 }
 

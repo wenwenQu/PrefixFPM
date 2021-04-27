@@ -155,18 +155,10 @@ public:
 	}
 
 
-	//infrequent pattern should have been pruned when generating child patterns from its parent
 	virtual bool pre_check(ostream& fout){
 		pat.print(fout);
 		return true;
 	}
-
-	bool needSplit(){
-		if(pat.pdb.size() > tauDB_singlethread)
-			return true;
-		return false;
-	};
-
 	/*
 	 * enum the children of an existed pattern, first back edge, then forward edge.
 	 */

@@ -36,6 +36,7 @@
 #include "timetrack.h"
 int thread_rank = 0;
 
+TimeTracker tt1,tt2,tt3,tt4,tt5;
 template<class TaskT>
 class Worker {
 public:
