@@ -8,9 +8,9 @@ There are 7 applications on top of our framework. Here are the folder structures
 * app/clospan: the Clospan parallel version developed on top for close sequence mining
 * app/gspan: the gSpan parallel version developed on top for subgraph mining
 * app/gaston: the Gaston parallel version developed on top for subgraph mining
-* sleuth: the Sleuth parallel version developed on top for unordered subtree mining
-* treeminer: the TreeMiner parallel version developed on top for ordered subtree mining
-* treespan: the PrefixTreeSpan parallel version developed on top for ordered subtree mining
+* app/sleuth: the Sleuth parallel version developed on top for unordered subtree mining
+* app/treeminer: the TreeMiner parallel version developed on top for ordered subtree mining
+* app/treespan: the PrefixTreeSpan parallel version developed on top for ordered subtree mining
 
 The applicatons are adapted from:
 
